@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel">
 </p>
 
-## 📌 Sobre o projeto
+## Sobre o projeto
 
 Uma empresa despacha mercadorias para todo o Brasil com **seis transportadoras parceiras** e tem a meta de entregar **85% dos pedidos no prazo**. A base tem **1.755 entregas** feitas de janeiro a dezembro de 2025, com transportadora, tipo de frete, origem, destino, peso, valor da nota fiscal, frete, datas e desvios.
 
@@ -27,7 +27,7 @@ Este repositório reúne o print do dashboard, o briefing e a explicação da an
 
 > **Pergunta central:** por que o OTD caiu ao longo de 2025, e quais transportadoras, rotas e problemas precisam ser tratados para voltar a cumprir a meta de 85%?
 
-## 📊 Dashboard
+## Dashboard
 
 ![Dashboard de Logística e Transportes](images/dashboard.png)
 
@@ -40,7 +40,7 @@ Este repositório reúne o print do dashboard, o briefing e a explicação da an
 
 **Filtros:** mês · transportadora · tipo de frete (convencional ou urgente).
 
-## 🎯 Principais números
+## Principais números
 
 | Indicador | Resultado |
 |---|---:|
@@ -53,7 +53,7 @@ Este repositório reúne o print do dashboard, o briefing e a explicação da an
 | Valor em nota fiscal de cargas extraviadas ou roubadas | R$ 538 mil |
 | Frete sobre o valor da nota fiscal | 3,3% |
 
-## 🔍 Metodologia
+## Metodologia
 
 1. **Limpeza:** a planilha original traz um título e uma linha de período antes do cabeçalho. Removi essas linhas no Power Query, promovi a linha de cabeçalho e defini os tipos de cada coluna: datas, números decimais e texto.
 2. **Regra de OTD:** uma entrega está no prazo quando a data real de entrega é igual ou anterior à data prevista. O OTD é o percentual dessas entregas sobre o total.
@@ -77,7 +77,7 @@ DIVIDE(
 )
 ```
 
-## 💡 Principais insights
+## Principais insights
 
 ### 1. O OTD fechou o ano 6 pontos abaixo da meta, e a queda se concentrou no fim do ano
 
@@ -126,7 +126,7 @@ Extravios e roubos somam **109 cargas e R$ 538 mil em notas fiscais**, 6,6% de t
 
 As 369 entregas atrasadas chegaram, em média, 3,3 dias depois do previsto. Uma em cada quatro atrasou 5 dias ou mais, e o maior atraso foi de 12 dias.
 
-## 🚀 Recomendações
+## Recomendações
 
 | Prioridade | Ação | Por quê |
 |:---:|---|---|
@@ -145,7 +145,7 @@ As 369 entregas atrasadas chegaram, em média, 3,3 dias depois do previsto. Uma 
 - **Volume mensal:** colocar a quantidade de entregas junto da evolução do OTD, para deixar visível a relação com o pico de fim de ano.
 - **Atraso em dias:** adicionar a distribuição dos atrasos, além do percentual no prazo.
 
-## 🗂️ Base de dados
+## Base de dados
 
 A planilha tem uma aba, **Historico Transporte**, com 1.755 entregas e 13 colunas.
 
@@ -164,7 +164,7 @@ A planilha tem uma aba, **Historico Transporte**, com 1.755 entregas e 13 coluna
 | `Data_Entrega_Real` | Data em que a entrega aconteceu |
 | `Tipo_Desvio` | Problema na entrega, quando houve: extravio, avaria, roubo de carga, endereço incorreto ou recusa de entrega |
 
-## 📁 Estrutura do repositório
+## Estrutura do repositório
 
 ```
 dashboard-logistica-transportes/
@@ -175,17 +175,15 @@ dashboard-logistica-transportes/
 └── README.md          # Metodologia, insights e recomendações
 ```
 
-## 🛠️ Ferramentas
+## Ferramentas
 
 - **Power BI** (Power Query, DAX e árvore de decomposição): dashboard e análise de causa raiz
 - **Azure Maps**: mapa das entregas
 - **Excel**: base original
 
-## 👩‍💻 Autora
+## Autora
 
 **Danielle Honório Stevam** · Analista de Dados Jr
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danielle-h-945320238/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/danielleh5)
-
-📂 Veja também: [Análise de Vendas · Petshop](https://github.com/danielleh5/analise-vendas-petshop) · [Dashboard de Vendas Globais](https://github.com/danielleh5/dashboard-vendas-globais)
