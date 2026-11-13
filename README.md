@@ -137,7 +137,7 @@ As 369 entregas atrasadas chegaram, em média, 3,3 dias depois do previsto. Uma 
 | 5 | Reforçar rastreamento e seguro de carga | Extravio e roubo somam R$ 538 mil em notas fiscais |
 | 6 | Validar o endereço no momento do pedido | 33 desvios por endereço incorreto poderiam ser evitados antes do envio |
 
-## 🔧 Próximas melhorias no dashboard
+## Próximas melhorias no dashboard
 
 - **OTD por região:** trocar o mapa de volume por um mapa de OTD por estado, que mostra onde estão os atrasos.
 - **Custo:** incluir cards de frete médio e frete sobre o valor da nota fiscal.
